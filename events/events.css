@@ -5,59 +5,89 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f3;
     padding: 20px;
 }
 
 .container {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
 }
 
 h1 {
-    margin-bottom: 20px;
     text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #555;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #28a745;
     color: white;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
+    margin-right: 10px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #218838;
+}
+
+.box, .move-area, .animate-box, .custom-box {
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    background-color: #17a2b8;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
 }
 
 .box {
-    width: 100%;
-    height: 100px;
-    margin-top: 20px;
-    background-color: lightcoral;
-    text-align: center;
-    line-height: 100px;
-    color: white;
-    font-weight: bold;
+    background-color: #ffc107;
+    color: #333;
 }
 
-input {
-    display: block;
+.move-area {
+    background-color: #6f42c1;
+    cursor: pointer;
+}
+
+.animate-box {
+    background-color: #dc3545;
+}
+
+.custom-box {
+    background-color: #343a40;
+}
+
+input[type="text"], input[type="password"] {
     width: 100%;
     padding: 10px;
-    margin-top: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
 }
 
-#textInput {
-    margin-bottom: 20px;
-}
-
-#windowResizeMessage {
-    margin-top: 20px;
-    color: darkred;
-    font-weight: bold;
+p {
+    margin-top: 10px;
+    color: #555;
 }
